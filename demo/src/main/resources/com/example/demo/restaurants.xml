@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<restaurants>
+    <restaurants>
+        <name>KFC</name>
+        <location>Cairo</location>
+    </restaurants>
+    <restaurants>
+        <name>Koshary</name>
+        <location>Giza</location>
+    </restaurants>
+    <restaurants>
+        <name>MAC</name>
+        <location>Maadi</location>
+    </restaurants>
+</restaurants>

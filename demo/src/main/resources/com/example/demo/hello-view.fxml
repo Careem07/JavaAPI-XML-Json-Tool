@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="600.0" styleClass="HBox" stylesheets="@home.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <CheckBox fx:id="checkBox1" layoutX="78.0" layoutY="86.0" mnemonicParsing="false" text="Name" />
+      <CheckBox fx:id="checkBox2" layoutX="168.0" layoutY="86.0" mnemonicParsing="false" text="Location" />
+      <CheckBox fx:id="checkBox3" layoutX="264.0" layoutY="86.0" mnemonicParsing="false" text="Phone" />
+      <Button fx:id="filterBtn" layoutX="450.0" layoutY="36.0" mnemonicParsing="false" onAction="#onFllter" prefHeight="25.0" prefWidth="102.0" text="Filter" />
+      <TableView fx:id="table" layoutX="82.0" layoutY="138.0" prefHeight="200.0" prefWidth="455.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="131.0" text="Name" />
+          <TableColumn fx:id="col2" minWidth="0.0" prefWidth="85.0" text="Location" />
+            <TableColumn fx:id="col3" prefWidth="70.0" text="Phone" />
+            <TableColumn fx:id="col4" prefWidth="83.0" text="Email" />
+            <TableColumn fx:id="col5" prefWidth="71.0" text="Rate" />
+        </columns>
+         <styleClass>
+            <String fx:value="list-cell" />
+            <String fx:value="combobox" />
+         </styleClass>
+      </TableView>
+      <ButtonBar layoutX="287.0" layoutY="377.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <Button fx:id="htmlBtn" mnemonicParsing="false" onAction="#onHTML" text="HTML" />
+          <Button mnemonicParsing="false" onAction="#onXML" text="XML" fx:id="xmlBtn" />
+            <Button mnemonicParsing="false" onAction="#toJson" text="JSON" />
+        </buttons>
+      </ButtonBar>
+      <CheckBox fx:id="checkBox4" layoutX="358.0" layoutY="86.0" mnemonicParsing="false" text="Email" />
+      <CheckBox fx:id="checkBox5" layoutX="465.0" layoutY="86.0" mnemonicParsing="false" text="Rate" />
+      <Button layoutX="79.0" layoutY="36.0" mnemonicParsing="false" onAction="#onUpload" text="Upload" />
+   </children>
+</Pane>

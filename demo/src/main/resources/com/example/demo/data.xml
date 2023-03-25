@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+    <restaurant>
+        <name>KFC</name>
+        <location>Cairo</location>
+        <phone>19019</phone>
+        <email>kfc@restaurant.com</email>
+        <rate>5</rate>
+    </restaurant>
+    <restaurant>
+        <name>Koshary</name>
+        <location>Giza</location>
+        <phone>17119</phone>
+        <email>koshary@restaurant.com</email>
+        <rate>5</rate>
+    </restaurant>
+    <restaurant>
+        <name>MAC</name>
+        <location>Maadi</location>
+        <phone>19991</phone>
+        <email>mac@restaurant.com</email>
+        <rate>5</rate>
+    </restaurant>
+</restaurants>
